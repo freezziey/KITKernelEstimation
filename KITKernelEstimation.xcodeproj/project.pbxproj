@@ -27,6 +27,7 @@
 		AA48A39D1D0D7DA2009252BE /* KITKernelEstimation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KITKernelEstimation; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA48A3A01D0D7DA2009252BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AA48A3AE1D0D954A009252BE /* CPPKernelEstimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPKernelEstimation.cpp; sourceTree = "<group>"; };
+		AA4B3CDD1D3276DF00CDDC56 /* KernelBoundaryInvestigation_CV.R */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = KernelBoundaryInvestigation_CV.R; path = KITKernelEstimation/KernelBoundaryInvestigation_CV.R; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +44,7 @@
 		AA48A3941D0D7DA2009252BE = {
 			isa = PBXGroup;
 			children = (
+				AA4B3CDD1D3276DF00CDDC56 /* KernelBoundaryInvestigation_CV.R */,
 				AA48A39F1D0D7DA2009252BE /* KITKernelEstimation */,
 				AA48A39E1D0D7DA2009252BE /* Products */,
 			);
@@ -247,6 +249,7 @@
 				AA48A3A61D0D7DA2009252BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
