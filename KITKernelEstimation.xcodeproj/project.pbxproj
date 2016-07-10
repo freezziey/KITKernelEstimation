@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA48A3A11D0D7DA2009252BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA48A3A01D0D7DA2009252BE /* main.cpp */; };
+		AA48A3B01D0D954A009252BE /* CPPKernelEstimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA48A3AE1D0D954A009252BE /* CPPKernelEstimation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		AA48A39D1D0D7DA2009252BE /* KITKernelEstimation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KITKernelEstimation; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA48A3A01D0D7DA2009252BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AA48A3AE1D0D954A009252BE /* CPPKernelEstimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPKernelEstimation.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				AA48A3A01D0D7DA2009252BE /* main.cpp */,
+				AA48A3AE1D0D954A009252BE /* CPPKernelEstimation.cpp */,
 			);
 			path = KITKernelEstimation;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA48A3A11D0D7DA2009252BE /* main.cpp in Sources */,
+				AA48A3B01D0D954A009252BE /* CPPKernelEstimation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +213,8 @@
 		AA48A3A51D0D7DA2009252BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /Library/Frameworks/R.framework/Headers;
+				LIBRARY_SEARCH_PATHS = /Library/Frameworks/R.framework/Resources/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +222,8 @@
 		AA48A3A61D0D7DA2009252BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /Library/Frameworks/R.framework/Headers;
+				LIBRARY_SEARCH_PATHS = /Library/Frameworks/R.framework/Resources/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
